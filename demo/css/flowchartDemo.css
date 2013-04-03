@@ -11,12 +11,14 @@
   width:5em; height:5em;
   line-height:5em;
   text-align:center;
-  z-index:20; position:absolute;
+  z-index:20;
+  position:absolute;
   background-color:#eeeeef;
   color:black;
   font-family:helvetica;
   padding:0.5em;
   font-size:0.9em;
+  cursor:move;
 }
 
   .window:hover {
@@ -35,20 +37,21 @@
    border:1px dotted red;
  }
 
- #window1 { top:360px;left:12px;}
+/* #window1 { top:360px;left:12px;}
  #window2 { top:7%; left:20%;}
  #window3 { top:37em;left:48em; }
  #window4 { top:48em; left:32em;}
  #window5 { top:700px; left:620px;}
- #window6 { top:720px; left:340px;}
+ #window6 { top:720px; left:340px;}*/
+
 
  ._jsPlumb_connector { z-index:4; }
  ._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel{ z-index:21;cursor:pointer; }
- .hl { border:3px solid red; }
+ .hl { border:2px solid red; }
  #debug { position:absolute; background-color:black; color:red; z-index:5000 }
 
  .aLabel {
- 	background-color:white;
+   background-color:white;
    padding:0.4em;
    font:12px sans-serif;
    color:#444;

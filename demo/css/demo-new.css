@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src:local('Open Sans'),
-  local('OpenSans'),
-  url("../font/OpenSans-Regular.ttf") format('truetype'),
-  url("../font/OpenSans.woff") format('woff');
-}
 
 body {
     padding:0;
@@ -56,6 +47,23 @@ body {
     margin-top: 12px;
 }
 
+#boxProp{
+    padding-left: 5%;
+}
+
+.inpProp{
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+label{
+    font-size: 0.8em;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+}
+
 #testBox{
     background-color: #f1f1f1;
     border: 1px dotted #ccc;
@@ -95,7 +103,7 @@ a:hover {
 	color:rgb(189,11,11) !important;
 }
 
-.window, .label {
+/*.window, .label {
     background-color:white;
     text-align:center;
     z-index:23;
@@ -104,8 +112,7 @@ a:hover {
     -o-box-shadow: 2px 2px 19px #aaa;
     -webkit-box-shadow: 2px 2px 19px #aaa;
     -moz-box-shadow: 2px 2px 19px #aaa;
-
-}
+}*/
 
 .path, ._jsPlumb_endpoint { cursor:pointer; }
 
